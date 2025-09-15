@@ -5,7 +5,7 @@ Blog com Busca
 ---
 
 <div align="center">
-  <img src="./assets/demo.gif" alt="Demo Lista de Compras" width="500">
+  <img src="./assets/demo01.gif" alt="Demo Lista de Compras" width="500">
 </div>
 
 ---
