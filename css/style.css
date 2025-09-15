@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #121214;
+}
+
+#container-pai {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-head {
+    background-color: #17171A;
+    width: 100%;
+    height: 100%;
+    bottom: 2px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    gap: 48px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#title {
+    color: #f10fc8;
+}
+
+#title-2 {
+    color: #FFFFFF;
+}
+
+#title:hover {
+    cursor: pointer;
+}
+
+#input {
+    width: 1216px;
+    height: 56px;
+    border-radius: 8px;
+    border: 2px solid #f10fc8;
+    padding: 16px 24px;
+    background-color: #202024;
+    align-items: center;
+
+    font-family: 'inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #AFABB6;
+}
+
+#container-body {
+    background-color: #121214;
+    width: 100%;
+    height: 100%;
+    top: 291px;
+    left: 352px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 40px;
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.box {
+    background-color: #17171A;
+    width: 1216px;
+    height: 243px;
+    border-radius: 8px;
+    border: 2px solid #252529;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: 0.2s;
+}
+
+.box:hover, .box.icon.filled {
+    border: 1px solid #f10fc8;
+}
+
+.fav {
+    display: flex;
+}
+
+
+.date {
+    color: #f10fc8;
+    width: 1136px;
+    height: 32px;
+    gap: 981px;
+}
+
+.icon {
+    width: 40px;
+    height: 32px;
+    fill: #17171A;
+    stroke: #f10fc8;
+    stroke-width: 2;
+    transition: fill 0.2s;
+    cursor: pointer;
+}
+
+.icon.filled, .icon:hover {
+    fill: #f10fc8;
+}
+
+.content {
+    width: 1136px;
+    height: 111px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.title-paragraph {
+    height: 31px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.text {
+    font-family: 'inter', sans-serif;
+    font-weight: 500;
+    color: #AFABB6;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0%;
+}
+
+
+
