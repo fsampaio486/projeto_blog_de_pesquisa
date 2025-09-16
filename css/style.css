@@ -30,6 +30,15 @@ body {
     align-items: center;
 }
 
+@media(max-width: 600px) {
+    #container-head {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        gap: 24px;
+        height: 100%;
+    }
+}
+
 h1 {
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 500;
@@ -37,6 +46,12 @@ h1 {
     line-height: 100%;
     letter-spacing: 0%;
     text-align: center;
+}
+
+@media(max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
 }
 
 #title {
@@ -52,7 +67,7 @@ h1 {
 }
 
 #input {
-    width: 1216px;
+    width: 80%;
     height: 56px;
     border-radius: 8px;
     border: 2px solid #f10fc8;
@@ -66,6 +81,14 @@ h1 {
     line-height: 100%;
     letter-spacing: 0%;
     color: #AFABB6;
+}
+
+@media(max-width: 600px) {
+    #input {
+        width: 80%;
+        height: 40px;
+        font-size: 15px;
+    }
 }
 
 #container-body {
@@ -84,10 +107,18 @@ h1 {
     gap: 40px;
 }
 
+@media(max-width: 600px) {
+    #container-body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        gap: 20px;
+    }
+}
+
 .box {
     background-color: #17171A;
-    width: 1216px;
-    height: 243px;
+    width: 80%;
+    height: auto;
     border-radius: 8px;
     border: 2px solid #252529;
     padding: 40px;
@@ -95,6 +126,14 @@ h1 {
     flex-direction: column;
     gap: 20px;
     transition: 0.2s;
+}
+
+@media(max-width: 600px) {
+    .box {
+        width: 90%;
+        padding: 20px;
+        gap: 10px;
+    }
 }
 
 .box:hover, .box.icon.filled {
@@ -105,12 +144,19 @@ h1 {
     display: flex;
 }
 
-
 .date {
     color: #f10fc8;
-    width: 1136px;
+    width: 100%;
     height: 32px;
     gap: 981px;
+}
+
+@media(max-width: 600px) {
+    .date {
+        gap: 210px;
+        font-size: 13px;
+        height: 16px;
+    }
 }
 
 .icon {
@@ -123,25 +169,44 @@ h1 {
     cursor: pointer;
 }
 
+@media(max-width: 600px) {
+    .icon {
+        width: 25px;
+        height: 18px;
+    }
+}
+
 .icon.filled, .icon:hover {
     fill: #f10fc8;
 }
 
 .content {
-    width: 1136px;
-    height: 111px;
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
+@media(max-width: 600) {
+    .content {
+        gap: 8px;
+    }
+}
+
 .title-paragraph {
-    height: 31px;
+    height: auto;
     font-weight: 500;
     font-size: 24px;
     line-height: 100%;
     letter-spacing: 0%;
     color: #FFFFFF;
+}
+
+@media(max-width: 600px) {
+    .title-paragraph {
+        font-size: 18px;
+    }
 }
 
 .text {
@@ -151,7 +216,18 @@ h1 {
     font-size: 20px;
     line-height: 160%;
     letter-spacing: 0%;
+    height: auto;
 }
+
+@media(max-width: 600px) {
+    .text {
+        font-family: 'inter', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 100%;
+    }
+}
+
 
 
 
