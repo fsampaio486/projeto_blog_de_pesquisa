@@ -4,6 +4,10 @@ Blog com Busca
 
 ---
 
+🚨 Tela do Projeto
+
+https://fsampaio486.github.io/projeto_blog_de_pesquisa/
+
 <div align="center">
   <img src="./assets/demo01.gif" alt="Demo Lista de Compras" width="700">
 </div>
